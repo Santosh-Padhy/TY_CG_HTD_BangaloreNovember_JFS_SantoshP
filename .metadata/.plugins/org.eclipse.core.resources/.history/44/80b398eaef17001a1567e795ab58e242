@@ -1,0 +1,43 @@
+package dsaproj;
+
+import java.time.Duration;
+import java.time.Instant;
+
+public class AddingElement {
+
+	public static void main(String[] args) {
+		long number = 999999999999l;
+	System.out.println(	addUpto(number));
+	System.out.println(addUptoquick(number));
+	
+	}
+
+	public static long addUpto(long number)
+	{
+		long total = 0l;
+		for(long i = 0;i<=number;i++) {
+			total= total+i;
+		
+		
+	}
+		return total;
+		
+}
+	public static long addUptoquick(Long number) {
+		long total = 0l;
+		return number*(number+1)/2;
+	}
+	public static void countingDuration()
+	{
+		long number = 999999999999l;
+		Instant start = Instant.now();
+		System.out.println("addupto"+addUpto(number));
+		Instant end = Instant.now();
+		System.out.println("addUptoquick"+addUptoquick(number));
+		long duration  = Duration .between(start, end).toMillis();
+		double seconds = duration/1000.0;
+		System.out.println("addupto"+seconds+"seconds");
+		
+	}
+	
+}

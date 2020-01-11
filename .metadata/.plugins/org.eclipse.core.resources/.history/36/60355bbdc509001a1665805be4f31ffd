@@ -1,0 +1,9 @@
+package interfaceConcept;
+
+public class ToyotaManufacture implements Toyota {
+	 public void engine()
+	{
+		System.out.println("engine i ready");
+	}
+
+}

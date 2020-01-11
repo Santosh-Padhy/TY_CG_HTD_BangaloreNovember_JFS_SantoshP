@@ -1,0 +1,28 @@
+package dsaproj;
+
+public class AddingElement {
+
+	public static void main(String[] args) {
+		long number = 8999889999999l;
+		addUpto(number);
+		addUptoquick(number);
+	}
+
+	public static long addUpto(long number)
+	{
+		long total = 0l;
+		for(long i = 0;i<=number;i++) {
+			total= total+i;
+		
+		
+	}
+		return total;
+		
+}
+	public static long addUptoquick(Long number) {
+		long total = 0l;
+		return number*(number+1)/2;
+	}
+	
+	
+}

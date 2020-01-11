@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class TestD {
+
+	public static void main(String[] args) {
+		<String> a1 = new ArrayList<String>();
+		a1.add("Rama");
+		a1.
+
+	}
+
+}

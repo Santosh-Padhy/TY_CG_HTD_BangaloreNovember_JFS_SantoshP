@@ -1,0 +1,34 @@
+import java.util.function.*;
+public class TestA {
+
+	public static void main(String[] args) {
+		System.out.println("---------------Predicate------------");
+		Predicate<Integer> p = i  -> i%2==0;
+		boolean b1 = p.test(34);
+		System.out.println(b1);
+		System.out.println(p.test(40));
+		
+		System.out.println("-------------Function-------------");
+		Function<Integer,Integer> f1 = i-> i*100;
+		int a = f1.apply(45);
+		System.out.println(a);
+		System.out.println("--------------------------Supplier-----------------------");
+		Supplier s1 = ()  -> new Person(34,"RAMU");
+		System.out.println(s1.get());
+		System.out.println(s1.get());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+	
+
+}
