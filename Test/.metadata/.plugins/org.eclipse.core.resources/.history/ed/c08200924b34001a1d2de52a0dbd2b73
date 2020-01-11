@@ -1,0 +1,13 @@
+package com.capgemini.springbootapp.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
+public class ORMConfig<LocalEntityManagerFactoryBean> {
+@Bean
+	public  LocalEntityManagerFactoryBean getEntityManagerFactoryBean() {
+		LocalEntityManagerFactoryBean bean = new LocalEntityManagerFactoryBean();
+		return bean;
+		
+	}	
+}

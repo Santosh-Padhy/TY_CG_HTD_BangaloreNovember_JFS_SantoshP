@@ -1,0 +1,8 @@
+package com.capgemini.springbootapp.dto;
+@Entity
+@Table(name="")
+public class UserInfo  {
+private int id;
+private int product_id;
+private int user_id;
+}

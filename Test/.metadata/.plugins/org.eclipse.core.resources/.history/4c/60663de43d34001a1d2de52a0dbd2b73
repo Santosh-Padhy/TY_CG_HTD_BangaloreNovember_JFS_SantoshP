@@ -1,0 +1,8 @@
+package com.capgemini.springbootapp.dto;
+
+public class OrderInfo {
+private int id;
+private int user_id;
+private int quantity;
+private String details;
+}

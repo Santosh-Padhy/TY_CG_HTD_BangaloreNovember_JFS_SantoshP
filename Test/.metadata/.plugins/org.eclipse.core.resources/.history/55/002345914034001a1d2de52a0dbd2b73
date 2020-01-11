@@ -1,0 +1,5 @@
+package com.capgemini.springbootapp.dao;
+
+public interface ProductDao {
+
+}

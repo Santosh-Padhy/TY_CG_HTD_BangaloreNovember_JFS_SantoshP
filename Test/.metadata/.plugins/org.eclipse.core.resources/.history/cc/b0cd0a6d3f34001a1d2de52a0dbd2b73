@@ -1,0 +1,21 @@
+package com.capgemini.springbootapp.dto;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="order_info")
+public class OrderInfo {
+	@Id
+	@Column
+	@GeneratedValue(strategy=GenerationType.AUTO)
+private int  id;
+	@Column
+private int productid;
+	@Column
+private int userid;
+}

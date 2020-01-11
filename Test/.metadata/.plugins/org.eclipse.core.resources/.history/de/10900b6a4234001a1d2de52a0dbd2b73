@@ -1,0 +1,23 @@
+package com.capgemini.springbootapp.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.capgemini.springbootapp.dao.ProductDao;
+import com.capgemini.springbootapp.dao.ProductDaoImpl;
+import com.capgemini.springbootapp.dto.ProductInfo;
+
+public class ProductServiceImpl implements ProductService {
+
+	
+	@Autowired
+	private ProductDaoImpl productdao;
+
+	@Override
+	public ProductInfo getProductById(int productId) {
+		
+		return productdao.getProductById(productId);
+	}
+	
+	
+
+}

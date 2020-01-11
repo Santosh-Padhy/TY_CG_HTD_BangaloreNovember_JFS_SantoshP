@@ -1,0 +1,13 @@
+package com.capgemini.springbootapp.dto;
+
+import java.util.List;
+
+public class OrderInfoResponse {
+	
+	
+	
+	private int statuscode;
+	private String message;
+	private String description;
+	List<OrderInfo> order; 
+}
