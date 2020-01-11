@@ -1,5 +1,0 @@
-package com.capgemini.springbootapp.dao;
-
-public class UserDaOImpl {
-
-}

@@ -1,5 +1,0 @@
-package com.capgemini.springbootapp.controller;
-
-public class OrderController {
-
-}

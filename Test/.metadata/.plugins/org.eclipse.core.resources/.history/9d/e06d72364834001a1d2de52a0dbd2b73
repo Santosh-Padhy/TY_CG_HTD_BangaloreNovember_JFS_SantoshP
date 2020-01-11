@@ -1,5 +1,0 @@
-package com.capgemini.springbootapp.config;
-
-public class ORMConfig {
-
-}

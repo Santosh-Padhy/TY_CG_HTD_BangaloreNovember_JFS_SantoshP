@@ -1,5 +1,0 @@
-package com.capgemini.springbootapp.dto;
-
-public class ProductInfo {
-
-}
